@@ -13,7 +13,7 @@ Price: The price of the house (target variable).
 
 # Installation
 Clone the repository:
-git clone https://github.com/TejaswiRokkam/bengaluru-house-price-prediction.git
+git clone https://github.com/TejaswiRokkam/Bengaluru-House-price-prediction.git
 
 # Usage
 Data Preprocessing:
