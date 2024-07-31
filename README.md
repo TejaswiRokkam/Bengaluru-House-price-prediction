@@ -16,11 +16,11 @@ Clone the repository:
 git clone https://github.com/TejaswiRokkam/Bengaluru-House-price-prediction.git
 
 # Usage
-Data Preprocessing:
-Clean and preprocess the data to handle missing values and categorical variables.
-Model Training:
-Train the model using Linear Regression.
-Prediction:
-Use the trained model to predict house prices for new data.
-Validation:
-Use K fold cross validation to measure accuracy of our model.
+**Data Preprocessing**:
+Clean and preprocess the data to handle missing values and categorical variables.<br>
+**Model Training**:
+Train the model using Linear Regression.<br>
+**Prediction**:
+Use the trained model to predict house prices for new data.<br>
+**Validation**:
+Use K fold cross validation to measure accuracy of our model.<br>
