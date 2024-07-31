@@ -5,10 +5,10 @@ This project aims to predict house prices in Bengaluru using machine learning an
 The dataset used for this project includes historical house price data from Bengaluru. It contains various features such as location, size, number of bedrooms, bathrooms, and more.
 
 # Features
-Location: The area where the house is located.
-Size: The size of the house in square feet.
-Number of Bedrooms: Total number of bedrooms.
-Number of Bathrooms: Total number of bathrooms.
+Location: The area where the house is located.<br>
+Size: The size of the house in square feet.<br>
+Number of Bedrooms: Total number of bedrooms.<br>
+Number of Bathrooms: Total number of bathrooms.<br>
 Price: The price of the house (target variable).
 
 # Installation
