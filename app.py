@@ -10,7 +10,8 @@ def get_location_names():
 
 def estimate_price(sqft, bhk, bath, location):
     data = {'total_sqft': sqft, 'bhk': bhk, 'bath': bath, 'location': location}
-    response = requests.post("http://127.0.0.1:5000/predict_home_price", data=data)
+    BACKEND_URL = "https://bengaluru-house-price-prediction-q8yf.onrender.com"
+    response = requests.post(f"{BACKEND_URL}/predict_home_price", data=data)
     if response.status_code == 200:
         return response.json()['estimated_price']
     return "Error"
