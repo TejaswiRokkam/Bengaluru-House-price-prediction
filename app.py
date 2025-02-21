@@ -2,7 +2,8 @@ import streamlit as st
 import requests
 
 def get_location_names():
-    response = requests.get("http://127.0.0.1:5000/get_location_names")
+    BACKEND_URL = "https://bengaluru-house-price-prediction-q8yf.onrender.com"
+    response = requests.get(f"{BACKEND_URL}/get_location_names")
     if response.status_code == 200:
         return response.json()['locations']
     return []
